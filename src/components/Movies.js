@@ -10,7 +10,7 @@ const Movies = () => {
               <p>Name: {e.title}</p>
               <p>Time: {e.time}</p>
               <ul>
-                  {ele.genres.map((e) => ( <li >{e}</li> )}
+                  {ele.genres.map((e) =>  <li >{e}</li> )}
               </ul>
           </div>
       ))}
